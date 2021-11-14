@@ -1,36 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
+using Core.DataAccess.EFCore;
 using DataAccess.Abstracts;
+using DataAccess.Concretes.EFCore.Contexts;
 using Entities.Concretes;
 
 namespace DataAccess.Concretes.EFCore
 {
-    public class EfProductDal : IProductDal
+    public class EfProductDal : EfCoreRepositoryBase<Product, NorthwindContext>, IProductDal
     {
-        public Product Get(Expression<Func<Product, bool>> filter)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IList<Product> GetList(Expression<Func<Product, bool>> filter = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Product Add(Product entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(Product entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(Product entity)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
