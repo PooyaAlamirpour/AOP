@@ -1,6 +1,8 @@
-﻿namespace Entities.Concretes
+﻿using Core.Entities;
+
+namespace Entities.Concretes
 {
-    public class Product
+    public class Product : IEntity
     {
         public int ProductID { get; set; }
         public string ProductName { get; set; }
