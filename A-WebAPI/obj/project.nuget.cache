@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dum4JLWMEwrzIY/4Wh4liYKOclQX0ILYP1JMnr1l3CtH2fPv6fMjxBUyAyuwXl3THqtTpkBqvDr3lu6bM7338g==",
-  "success": false,
+  "dgSpecHash": "M6nAh1MNmCGUtiQ+eQCk89FGqPlZx9UOFW5NqVEpwDPSmPpZIsxfvw09SkgI9gVvkhr/Mxvs8wZpWvdOYhGYgg==",
+  "success": true,
   "projectFilePath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\A-WebAPI\\A-WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Pooya\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\Pooya\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Pooya\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Pooya\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
@@ -105,15 +107,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\B-Core\\B-Core.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\B-Core\\B-Core.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

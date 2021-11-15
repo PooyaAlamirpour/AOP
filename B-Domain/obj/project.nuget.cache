@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rIyHWLw1Oc9FsPFTFE2SHBCJkeSy/74KXHltruo++Meb+bu3rh630lVHxNGsXOaf7XRyZewGuZTnTXPm+zgahg==",
-  "success": false,
+  "dgSpecHash": "mxdttWBB9ZvhmUPW3xKAE6ktxsg7F2USuiC+5NiI31aMdQZWU0XXBGU7mtQnAwChKmXxsNk6GiUxU2kkl48aNA==",
+  "success": true,
   "projectFilePath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\B-Domain\\B-Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Pooya\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Pooya\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Pooya\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
@@ -99,15 +100,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\B-Core\\B-Core.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\B-Core\\B-Core.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

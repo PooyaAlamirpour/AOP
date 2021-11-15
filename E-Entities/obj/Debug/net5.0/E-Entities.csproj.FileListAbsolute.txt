@@ -1,0 +1,15 @@
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\bin\Debug\net5.0\E-Entities.deps.json
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\bin\Debug\net5.0\E-Entities.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\bin\Debug\net5.0\ref\E-Entities.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\bin\Debug\net5.0\E-Entities.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\bin\Debug\net5.0\C-Core.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\bin\Debug\net5.0\C-Core.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\E-Entities.csproj.AssemblyReference.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\E-Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\E-Entities.AssemblyInfoInputs.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\E-Entities.AssemblyInfo.cs
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\E-Entities.csproj.CoreCompileInputs.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\E-Entities.csproj.CopyComplete
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\E-Entities.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\ref\E-Entities.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\E-Entities.pdb

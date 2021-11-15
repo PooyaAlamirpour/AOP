@@ -1,0 +1,17 @@
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\bin\Debug\net5.0\D-DataAccess.deps.json
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\bin\Debug\net5.0\D-DataAccess.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\bin\Debug\net5.0\ref\D-DataAccess.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\bin\Debug\net5.0\D-DataAccess.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\bin\Debug\net5.0\C-Core.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\bin\Debug\net5.0\E-Entities.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\bin\Debug\net5.0\C-Core.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\bin\Debug\net5.0\E-Entities.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\D-DataAccess.csproj.AssemblyReference.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\D-DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\D-DataAccess.AssemblyInfoInputs.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\D-DataAccess.AssemblyInfo.cs
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\D-DataAccess.csproj.CoreCompileInputs.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\D-DataAccess.csproj.CopyComplete
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\D-DataAccess.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\ref\D-DataAccess.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\D-DataAccess.pdb

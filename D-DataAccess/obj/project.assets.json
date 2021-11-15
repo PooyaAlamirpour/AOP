@@ -1499,8 +1499,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "C-Core": "1.0.0",
-          "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\B-Core\\B-Core.csproj": "1.0.0"
+          "C-Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/E-Entities.dll": {}
@@ -5773,16 +5772,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\B-Core\\B-Core.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\B-Core\\B-Core.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

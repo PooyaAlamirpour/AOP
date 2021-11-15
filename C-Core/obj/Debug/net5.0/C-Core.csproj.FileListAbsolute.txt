@@ -1,0 +1,12 @@
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\bin\Debug\net5.0\C-Core.deps.json
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\bin\Debug\net5.0\C-Core.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\bin\Debug\net5.0\ref\C-Core.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\bin\Debug\net5.0\C-Core.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\C-Core.csproj.AssemblyReference.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\C-Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\C-Core.AssemblyInfoInputs.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\C-Core.AssemblyInfo.cs
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\C-Core.csproj.CoreCompileInputs.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\C-Core.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\ref\C-Core.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\C-Core.pdb

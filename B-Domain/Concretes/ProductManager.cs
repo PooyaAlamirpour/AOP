@@ -27,12 +27,19 @@ namespace Domain.Concretes
 
         public IDataResult<Product> Add(Product product)
         {
-            var isExist = GetById(product.ProductID);
-            if (isExist is not null)
+            if (product.ProductID == 0)
             {
-                return new ErrorDataResult<Product>("Product already exist.");
+                return new SuccessDataResult<Product>(_productDal.Add(product));    
             }
-            return new SuccessDataResult<Product>(_productDal.Add(product));
+            else
+            {
+                var isExist = GetById(product.ProductID);
+                if (isExist is not null)
+                {
+                    return new ErrorDataResult<Product>("Product already exist.");
+                }
+                return new SuccessDataResult<Product>(_productDal.Add(product));    
+            }
         } 
 
         public IResult Update(Product product)
