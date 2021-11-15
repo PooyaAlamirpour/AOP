@@ -1,4 +1,5 @@
-﻿using Entities.Concretes;
+﻿using Core.Concretes;
+using Entities.Concretes;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concretes.EFCore.Contexts
@@ -11,5 +12,8 @@ namespace DataAccess.Concretes.EFCore.Contexts
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<OperationClaim> OperationClaims { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
     }
 }
