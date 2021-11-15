@@ -1495,17 +1495,17 @@
           "bin/placeholder/B-Core.dll": {}
         }
       },
-      "Entities/1.0.0": {
+      "D-Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "B-Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/D-Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/D-Entities.dll": {}
         }
       }
     }
@@ -5678,15 +5678,15 @@
       "path": "../B-Core/B-Core.csproj",
       "msbuildProject": "../B-Core/B-Core.csproj"
     },
-    "Entities/1.0.0": {
+    "D-Entities/1.0.0": {
       "type": "project",
-      "path": "../Entities/Entities.csproj",
-      "msbuildProject": "../Entities/Entities.csproj"
+      "path": "../D-Entities/D-Entities.csproj",
+      "msbuildProject": "../D-Entities/D-Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Entities >= 1.0.0",
+      "D-Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.12"
     ]
@@ -5699,11 +5699,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\DataAccess\\DataAccess.csproj",
-      "projectName": "DataAccess",
-      "projectPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\C-DataAccess\\C-DataAccess.csproj",
+      "projectName": "C-DataAccess",
+      "projectPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\C-DataAccess\\C-DataAccess.csproj",
       "packagesPath": "C:\\Users\\Pooya\\.nuget\\packages\\",
-      "outputPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\DataAccess\\obj\\",
+      "outputPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\C-DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5725,8 +5725,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\Entities\\Entities.csproj"
+            "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\D-Entities\\D-Entities.csproj": {
+              "projectPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\D-Entities\\D-Entities.csproj"
             }
           }
         }

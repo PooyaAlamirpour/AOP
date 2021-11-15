@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\DataAccess\\DataAccess.csproj": {}
+    "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\C-DataAccess\\C-DataAccess.csproj": {}
   },
   "projects": {
     "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\B-Core\\B-Core.csproj": {
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\DataAccess\\DataAccess.csproj": {
+    "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\C-DataAccess\\C-DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\DataAccess\\DataAccess.csproj",
-        "projectName": "DataAccess",
-        "projectPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\C-DataAccess\\C-DataAccess.csproj",
+        "projectName": "C-DataAccess",
+        "projectPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\C-DataAccess\\C-DataAccess.csproj",
         "packagesPath": "C:\\Users\\Pooya\\.nuget\\packages\\",
-        "outputPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\DataAccess\\obj\\",
+        "outputPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\C-DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -98,8 +98,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\Entities\\Entities.csproj"
+              "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\D-Entities\\D-Entities.csproj": {
+                "projectPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\D-Entities\\D-Entities.csproj"
               }
             }
           }
@@ -142,14 +142,14 @@
         }
       }
     },
-    "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\Entities\\Entities.csproj": {
+    "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\D-Entities\\D-Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-        "projectPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\D-Entities\\D-Entities.csproj",
+        "projectName": "D-Entities",
+        "projectPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\D-Entities\\D-Entities.csproj",
         "packagesPath": "C:\\Users\\Pooya\\.nuget\\packages\\",
-        "outputPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\Entities\\obj\\",
+        "outputPath": "D:\\Partion E\\Improving Software Engineering\\Persian\\Clean code clean architecture\\NotrhWindBackend\\D-Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
