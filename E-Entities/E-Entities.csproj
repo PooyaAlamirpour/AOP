@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Entities</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Abstracts" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\B-Core\B-Core.csproj" />
+      <ProjectReference Include="..\C-Core\C-Core.csproj" />
+    </ItemGroup>
+
+</Project>

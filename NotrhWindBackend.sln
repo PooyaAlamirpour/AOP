@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-Entities", "D-Entities\D-Entities.csproj", "{07782806-E788-47B5-A8FD-46B0DF1CFE0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Entities", "E-Entities\E-Entities.csproj", "{07782806-E788-47B5-A8FD-46B0DF1CFE0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-DataAccess", "C-DataAccess\C-DataAccess.csproj", "{DA9BB862-5314-4522-9675-DC62C49A81A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-DataAccess", "D-DataAccess\D-DataAccess.csproj", "{DA9BB862-5314-4522-9675-DC62C49A81A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B-Core", "B-Core\B-Core.csproj", "{242AAA8B-BBBC-4CE6-8543-BC31FFB7E678}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Core", "C-Core\C-Core.csproj", "{242AAA8B-BBBC-4CE6-8543-BC31FFB7E678}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A-Domain", "A-Domain\A-Domain.csproj", "{4C4D9780-CE0A-4F6F-B2E8-BE6E0B267FD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B-Domain", "B-Domain\B-Domain.csproj", "{4C4D9780-CE0A-4F6F-B2E8-BE6E0B267FD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{EC8DED1A-31D5-4969-B6BD-4C5B0E95E8F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A-WebAPI", "A-WebAPI\A-WebAPI.csproj", "{EC8DED1A-31D5-4969-B6BD-4C5B0E95E8F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
