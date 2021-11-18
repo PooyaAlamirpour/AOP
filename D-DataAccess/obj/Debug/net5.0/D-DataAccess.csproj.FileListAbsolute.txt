@@ -15,3 +15,6 @@ D:\Partion E\Improving Software Engineering\Persian\Clean code clean architectur
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\D-DataAccess.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\ref\D-DataAccess.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\obj\Debug\net5.0\D-DataAccess.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\D-DataAccess\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll

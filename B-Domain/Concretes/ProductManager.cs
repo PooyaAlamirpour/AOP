@@ -3,6 +3,7 @@ using System.Linq;
 using Core.ViewModels.Results;
 using DataAccess.Abstracts;
 using Domain.Abstracts;
+using Domain.Constances;
 using Entities.Concretes;
 
 namespace Domain.Concretes
@@ -29,29 +30,27 @@ namespace Domain.Concretes
         {
             if (product.ProductID == 0)
             {
-                return new SuccessDataResult<Product>(_productDal.Add(product));    
+                return new SuccessDataResult<Product>(_productDal.Add(product), Messages.ProductIsAddedSuccessfully);    
             }
-            else
+
+            var isExist = GetById(product.ProductID);
+            if (isExist is not null)
             {
-                var isExist = GetById(product.ProductID);
-                if (isExist is not null)
-                {
-                    return new ErrorDataResult<Product>("Product already exist.");
-                }
-                return new SuccessDataResult<Product>(_productDal.Add(product));    
+                return new ErrorDataResult<Product>(Messages.ProductAlreadyExist);
             }
+            return new SuccessDataResult<Product>(_productDal.Add(product));
         } 
 
         public IResult Update(Product product)
         {
             _productDal.Update(product);
-            return new SuccessResult("Product is updated successfully.");
+            return new SuccessResult(Messages.ProductIsUpdatedSuccessfully);
         }
 
         public IResult Delete(Product product)
         {
             _productDal.Delete(product);
-            return new SuccessResult("Product is deleted successfully.");  
+            return new SuccessResult(Messages.ProductIsDeletedSuccessfully);  
         } 
     }
 }

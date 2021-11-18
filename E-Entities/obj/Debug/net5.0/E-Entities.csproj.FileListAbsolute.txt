@@ -13,3 +13,6 @@ D:\Partion E\Improving Software Engineering\Persian\Clean code clean architectur
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\E-Entities.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\ref\E-Entities.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\obj\Debug\net5.0\E-Entities.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\E-Entities\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll

@@ -4,6 +4,7 @@ using Core.Security.Hashing;
 using Core.Security.JWT;
 using Core.ViewModels.Results;
 using Domain.Abstracts;
+using Domain.Constances;
 using Entities.DTO;
 
 namespace Domain.Concretes
@@ -33,7 +34,7 @@ namespace Domain.Concretes
             };
             _userService.Add(user);
             
-            return new SuccessDataResult<User>(user, "User is registered.");
+            return new SuccessDataResult<User>(user, Messages.UserIsRegistered);
         }
 
         public IDataResult<User> Login(UserForLoginDto loginDto)
@@ -41,22 +42,22 @@ namespace Domain.Concretes
             var user = _userService.GetByEmail(loginDto.Email);
             if (user is null)
             {
-                return  new ErrorDataResult<User>("User not found.");
+                return  new ErrorDataResult<User>(Messages.UserIsNotFound);
             }
 
             if (!HashingHelper.VerifyPasswordHash(loginDto.Password, user.PasswordSalt, user.PasswordHash))
             {
-                return  new ErrorDataResult<User>("Password error.");
+                return  new ErrorDataResult<User>(Messages.PasswordError);
             }
             
-            return new SuccessDataResult<User>(user, "Successful login");
+            return new SuccessDataResult<User>(user, Messages.SuccessfullyLogin);
         }
 
         public IResult UserExist(string email)
         {
             if (_userService.GetByEmail(email) is not null)
             {
-                return new ErrorResult("User already exit.");
+                return new ErrorResult(Messages.UserAlreadyExists);
             }
 
             return new SuccessResult();

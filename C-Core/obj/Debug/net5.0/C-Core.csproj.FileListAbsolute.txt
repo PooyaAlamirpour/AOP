@@ -10,3 +10,7 @@ D:\Partion E\Improving Software Engineering\Persian\Clean code clean architectur
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\C-Core.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\ref\C-Core.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\C-Core.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\obj\Debug\net5.0\C-Core.csproj.CopyComplete

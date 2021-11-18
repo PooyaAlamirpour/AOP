@@ -17,3 +17,6 @@ D:\Partion E\Improving Software Engineering\Persian\Clean code clean architectur
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\obj\Debug\net5.0\B-Domain.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\obj\Debug\net5.0\ref\B-Domain.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\obj\Debug\net5.0\B-Domain.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll
