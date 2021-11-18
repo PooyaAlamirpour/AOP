@@ -6,11 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2abd321-7c63-460d-b5db-6ca7520a363f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/B-Domain/Constances/Messages.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Extensions/ErrorDetails.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Extensions/ExceptionMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Core/Aspects/Autofac/Transaction/TransactionScopeAspect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Core/Interceptors/AspectInterceptorSelector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Core/Interceptors/MethodInterception.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Core/Interceptors/MethodInterceptionBaseAttribute.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotrhWindBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotrhWindBackend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-WebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.pdb" afterDir="false" />
@@ -32,9 +32,8 @@
       <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-Domain/B-Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/B-Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-Domain/Concretes/AuthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/Concretes/AuthManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/Concretes/ProductManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/Concretes/ProductManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/DependencyResolvers/AutoFac/AutofacBusinessModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/DependencyResolvers/AutoFac/AutofacBusinessModule.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.pdb" afterDir="false" />
@@ -46,7 +45,6 @@
       <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/E-Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/E-Entities.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/ref/B-Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/ref/B-Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/obj/B-Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/B-Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-Domain/obj/B-Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/B-Domain.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -56,7 +54,6 @@
       <change beforePath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/ref/B-Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/ref/B-Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C-Core/C-Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/C-Core.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/C-Core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/C-Core.deps.json" afterDir="false" />
@@ -64,7 +61,6 @@
       <change beforePath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/C-Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/C-Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/ref/C-Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/ref/C-Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C-Core/obj/C-Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/C-Core.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C-Core/obj/C-Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/C-Core.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -84,7 +80,6 @@
       <change beforePath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/E-Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/E-Entities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/E-Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/E-Entities.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/D-DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/D-DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/D-DataAccess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/D-DataAccess.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -106,7 +101,6 @@
       <change beforePath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Entities/obj/E-Entities.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/E-Entities.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Entities/obj/E-Entities.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/E-Entities.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Entities/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Entities/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Entities/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/rider.project.restore.info" afterDir="false" />
@@ -121,17 +115,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/572e2094a2634fbeb96d692f36bdbc3e16778/5/Claim.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d9e81850faf4a539694b7d8467cc130cf88/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6e96640376514b03ba525bdd038d721231d78/A/UseMiddlewareExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d23ddb881ebc4d4290991a839764b5826280/5/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ba72efe7dbf249adbd79c391e9ea1a4b14368/5/JwtSecurityToken.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d9e81850faf4a539694b7d8467cc130cf88/7/AuthorizationAppBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4e4980e1fd1747ea96dd5ea754ac19964178/e3/3dc1ad1c/IAuthorizeData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/29a328843bdc4762af89c8fdc084c4d68f5778/1C/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d9e81850faf4a539694b7d8467cc130cf88/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b997ce4b621741e6875cc78c527be20d66578/26/Select.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6e96640376514b03ba525bdd038d721231d78/A/UseMiddlewareExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d23ddb881ebc4d4290991a839764b5826280/5/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dcbd94875ad04c0080266d7232e93d2a13f78/A/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53c13ae0c80f4b2784ab381628f2ecf7133188/83/88e3ae03/SingleQueryingEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ba72efe7dbf249adbd79c391e9ea1a4b14368/5/JwtSecurityToken.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d9e81850faf4a539694b7d8467cc130cf88/7/AuthorizationAppBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/141605190d4c44e1bb4c1f091b8979a24200/6/AutofacServiceProviderFactory.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20xl8csSUDjnIA2wCfsdkXZ4FQb" />
@@ -194,6 +187,8 @@
       <updated>1636993975565</updated>
       <workItem from="1636993977972" duration="13442000" />
       <workItem from="1637184910877" duration="15142000" />
+      <workItem from="1637268499786" duration="525000" />
+      <workItem from="1637269145905" duration="3754000" />
     </task>
     <servers />
   </component>
@@ -248,14 +243,14 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/C-Core/Extensions/ExceptionMiddleware.cs</url>
-          <line>21</line>
-          <properties documentPath="D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\Extensions\ExceptionMiddleware.cs" initialLine="19" containingFunctionPresentation="method 'InvokeAsync'">
+          <url>file://$PROJECT_DIR$/B-Domain/Concretes/ProductManager.cs</url>
+          <line>49</line>
+          <properties documentPath="D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\Concretes\ProductManager.cs" initialLine="49" containingFunctionPresentation="method 'Update'">
             <startOffsets>
-              <option value="447" />
+              <option value="1677" />
             </startOffsets>
             <endOffsets>
-              <option value="472" />
+              <option value="1699" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />

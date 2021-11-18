@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using Core.Aspects.Autofac.Transaction;
 using Core.ViewModels.Results;
 using DataAccess.Abstracts;
 using Domain.Abstracts;
@@ -41,9 +43,11 @@ namespace Domain.Concretes
             return new SuccessDataResult<Product>(_productDal.Add(product));
         } 
 
+        [TransactionScopeAspect]
         public IResult Update(Product product)
         {
             _productDal.Update(product);
+            throw new Exception();
             return new SuccessResult(Messages.ProductIsUpdatedSuccessfully);
         }
 

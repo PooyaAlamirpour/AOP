@@ -1,11 +1,16 @@
 ﻿
+using System.Reflection;
 using Autofac;
+using Autofac.Extras.DynamicProxy;
+using Castle.DynamicProxy;
+using Core.Interceptors;
 using Core.Security.JWT;
 using DataAccess.Abstracts;
 using DataAccess.Concretes.EFCore;
 using Domain.Abstracts;
 using Domain.Concretes;
 using Entities.Concretes;
+using Module = Autofac.Module;
 
 namespace Domain.DependencyResolvers.AutoFac
 {
@@ -21,6 +26,13 @@ namespace Domain.DependencyResolvers.AutoFac
             
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<TokenHelper>().As<ITokenHelper>();
+
+            var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
+                .EnableInterfaceInterceptors(new ProxyGenerationOptions()
+                {
+                    Selector = new AspectInterceptorSelector()
+                }).SingleInstance();
         }
     }
 }

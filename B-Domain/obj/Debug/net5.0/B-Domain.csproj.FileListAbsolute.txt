@@ -20,3 +20,25 @@ D:\Partion E\Improving Software Engineering\Persian\Clean code clean architectur
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\B-Domain.deps.json
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\B-Domain.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\ref\B-Domain.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\B-Domain.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\C-Core.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\D-DataAccess.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\E-Entities.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\D-DataAccess.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\E-Entities.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\bin\Debug\net5.0\C-Core.pdb
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\obj\Debug\net5.0\B-Domain.csproj.AssemblyReference.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\obj\Debug\net5.0\B-Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\obj\Debug\net5.0\B-Domain.AssemblyInfoInputs.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\obj\Debug\net5.0\B-Domain.AssemblyInfo.cs
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\obj\Debug\net5.0\B-Domain.csproj.CoreCompileInputs.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\obj\Debug\net5.0\B-Domain.csproj.CopyComplete
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\obj\Debug\net5.0\B-Domain.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\obj\Debug\net5.0\ref\B-Domain.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\New folder\AOP\B-Domain\obj\Debug\net5.0\B-Domain.pdb
