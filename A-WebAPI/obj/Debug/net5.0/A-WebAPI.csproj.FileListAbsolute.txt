@@ -22,7 +22,6 @@ D:\Partion E\Improving Software Engineering\Persian\Clean code clean architectur
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -67,3 +66,9 @@ D:\Partion E\Improving Software Engineering\Persian\Clean code clean architectur
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\obj\Debug\net5.0\ref\A-WebAPI.dll
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\obj\Debug\net5.0\A-WebAPI.pdb
 D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\obj\Debug\net5.0\A-WebAPI.genruntimeconfig.cache
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

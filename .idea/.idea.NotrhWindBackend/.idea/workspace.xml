@@ -6,67 +6,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2abd321-7c63-460d-b5db-6ca7520a363f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/B-Domain/Abstracts/IAuthService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B-Domain/Abstracts/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B-Domain/Concretes/AuthManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B-Domain/Concretes/UserManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Concretes/OperationClaim.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Concretes/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Concretes/UserOperationClaim.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Entities/IDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Extensions/ClaimExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Security/Encryption/SecurityKeyHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Security/Encryption/SigningCredentialHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Security/Hashing/HashingHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Security/JWT/AccessToken.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Security/JWT/ITokenHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Security/JWT/TokenHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C-Core/Security/JWT/TokenOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D-DataAccess/Abstracts/IUserDal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D-DataAccess/Concretes/EFCore/EfUserDal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Entities/DTO/UserForLoginDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Entities/DTO/UserForRegisterDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A-WebAPI/Controllers/AuthController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotrhWindBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotrhWindBackend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-WebAPI/A-WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/A-WebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/Controllers/ProductsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-WebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-WebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/A-WebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/A-WebAPI.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/A-WebAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/A-WebAPI.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/A-WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/B-Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/B-Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/B-Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/B-Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/C-Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/C-Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/C-Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/C-Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/D-DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/D-DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/D-DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/D-DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/E-Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/E-Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/E-Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/E-Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/ref/A-WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/bin/Debug/net5.0/ref/A-WebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-Domain/obj/B-Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/B-Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/A-WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/ref/A-WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/obj/Debug/net5.0/ref/A-WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/Concretes/AuthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/Concretes/AuthManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/Concretes/ProductManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/Concretes/ProductManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/DependencyResolvers/AutoFac/AutofacBusinessModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/DependencyResolvers/AutoFac/AutofacBusinessModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/B-Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/C-Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/C-Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/C-Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/C-Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/D-DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/D-DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/D-DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/D-DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/E-Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/E-Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/E-Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/E-Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/ref/B-Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/bin/Debug/net5.0/ref/B-Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C-Core/C-Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/C-Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C-Core/obj/C-Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/C-Core.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C-Core/obj/C-Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/C-Core.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/B-Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/ref/B-Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B-Domain/obj/Debug/net5.0/ref/B-Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/C-Core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/C-Core.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/C-Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/C-Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/C-Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/C-Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/ref/C-Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/bin/Debug/net5.0/ref/C-Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C-Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C-Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C-Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C-Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/C-Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/ref/C-Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/C-Core/obj/Debug/net5.0/ref/C-Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/D-DataAccess/Concretes/EFCore/Contexts/NorthwindContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/Concretes/EFCore/Contexts/NorthwindContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/D-DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/D-DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/Concretes/EFCore/EfUserDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/Concretes/EFCore/EfUserDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/C-Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/C-Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/C-Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/C-Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/D-DataAccess.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/D-DataAccess.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/D-DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/D-DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/D-DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/D-DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/E-Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/E-Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/E-Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/E-Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/ref/D-DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/bin/Debug/net5.0/ref/D-DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/D-DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/ref/D-DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/D-DataAccess/obj/Debug/net5.0/ref/D-DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/C-Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/C-Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/C-Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/C-Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/E-Entities.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/E-Entities.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/E-Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/E-Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/E-Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/E-Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/ref/E-Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/bin/Debug/net5.0/ref/E-Entities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Entities/obj/E-Entities.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/E-Entities.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Entities/obj/E-Entities.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/E-Entities.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Entities/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Entities/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Entities/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/E-Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/ref/E-Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/E-Entities/obj/Debug/net5.0/ref/E-Entities.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +100,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/572e2094a2634fbeb96d692f36bdbc3e16778/5/Claim.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4e4980e1fd1747ea96dd5ea754ac19964178/e3/3dc1ad1c/IAuthorizeData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/29a328843bdc4762af89c8fdc084c4d68f5778/1C/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d9e81850faf4a539694b7d8467cc130cf88/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b997ce4b621741e6875cc78c527be20d66578/26/Select.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6e96640376514b03ba525bdd038d721231d78/A/UseMiddlewareExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d23ddb881ebc4d4290991a839764b5826280/5/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dcbd94875ad04c0080266d7232e93d2a13f78/A/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ba72efe7dbf249adbd79c391e9ea1a4b14368/5/JwtSecurityToken.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/141605190d4c44e1bb4c1f091b8979a24200/6/AutofacServiceProviderFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d9e81850faf4a539694b7d8467cc130cf88/7/AuthorizationAppBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20xl8csSUDjnIA2wCfsdkXZ4FQb" />
   <component name="ProjectLevelVcsManager">
@@ -142,6 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1636993975565</updated>
       <workItem from="1636993977972" duration="13442000" />
+      <workItem from="1637184910877" duration="7142000" />
     </task>
     <servers />
   </component>
@@ -149,7 +179,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -161,6 +191,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -170,16 +201,29 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/A-WebAPI/Controllers/ProductsController.cs</url>
-          <line>47</line>
+          <line>49</line>
           <properties documentPath="D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\Controllers\ProductsController.cs" initialLine="47" containingFunctionPresentation="method 'Add'">
             <startOffsets>
-              <option value="1338" />
+              <option value="1431" />
             </startOffsets>
             <endOffsets>
-              <option value="1380" />
+              <option value="1473" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/A-WebAPI/Controllers/AuthController.cs</url>
+          <line>38</line>
+          <properties documentPath="D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\A-WebAPI\Controllers\AuthController.cs" initialLine="38" containingFunctionPresentation="method 'Register'">
+            <startOffsets>
+              <option value="1023" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1076" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

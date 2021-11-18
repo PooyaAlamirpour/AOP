@@ -1,5 +1,6 @@
 ﻿using Domain.Abstracts;
 using Entities.Concretes;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
@@ -15,7 +16,8 @@ namespace WebAPI.Controllers
             _productService = productService;
         }
 
-        [HttpGet("GetById")]
+        [Authorize(Roles = nameof(GetById))]
+        [HttpGet(nameof(GetById))]
         public IActionResult GetById(int productId)
         {
             var result = _productService.GetById(productId);

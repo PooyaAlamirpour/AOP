@@ -1,5 +1,6 @@
 ﻿
 using Autofac;
+using Core.Security.JWT;
 using DataAccess.Abstracts;
 using DataAccess.Concretes.EFCore;
 using Domain.Abstracts;
@@ -14,6 +15,12 @@ namespace Domain.DependencyResolvers.AutoFac
         {
             builder.RegisterType<ProductManager>().As<IProductService>();
             builder.RegisterType<EfProductDal>().As<IProductDal>();
+            
+            builder.RegisterType<EfUserDal>().As<IUserDal>();
+            builder.RegisterType<UserManager>().As<IUserService>();
+            
+            builder.RegisterType<AuthManager>().As<IAuthService>();
+            builder.RegisterType<TokenHelper>().As<ITokenHelper>();
         }
     }
 }

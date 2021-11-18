@@ -31,6 +31,8 @@ namespace Domain.Concretes
                 PasswordSalt = passwordSalt,
                 Status = true
             };
+            _userService.Add(user);
+            
             return new SuccessDataResult<User>(user, "User is registered.");
         }
 

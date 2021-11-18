@@ -15,7 +15,7 @@ namespace Domain.Concretes
         {
             _productDal = productDal;
         }
-
+        
         public IDataResult<Product> GetById(int productId) =>
             new SuccessDataResult<Product>(_productDal.Get(x => x.ProductID == productId));
 
