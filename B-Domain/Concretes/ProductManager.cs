@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Transaction;
 using Core.ViewModels.Results;
 using DataAccess.Abstracts;
@@ -22,6 +23,7 @@ namespace Domain.Concretes
         public IDataResult<Product> GetById(int productId) =>
             new SuccessDataResult<Product>(_productDal.Get(x => x.ProductID == productId));
 
+        [PerformanceAspect(1)]
         public IDataResult<List<Product>> GetList() =>
             new SuccessDataResult<List<Product>>(_productDal.GetList().ToList());
 

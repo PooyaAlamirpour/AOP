@@ -1,4 +1,5 @@
-﻿using Domain.Abstracts;
+﻿using Core.Aspects.Autofac.Performance;
+using Domain.Abstracts;
 using Entities.Concretes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

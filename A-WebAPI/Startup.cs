@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Core.Authentication.JWT;
 using Core.Extensions;
+using Core.IoC;
 using Core.Security.Encryption;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -48,6 +50,9 @@ namespace WebAPI
                         IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                     };
                 });
+            
+            services.AddScoped<Stopwatch>();
+            ServiceTools.Create(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
