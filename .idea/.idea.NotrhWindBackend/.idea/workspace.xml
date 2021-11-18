@@ -6,7 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2abd321-7c63-460d-b5db-6ca7520a363f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/C-Core/Aspects/Autofac/Caching/CacheAspect.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/C-Core/Aspects/Autofac/Performance/PerformanceAspect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Core/CrossCuttingConcerns/Catching/ICacheManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Core/CrossCuttingConcerns/Catching/Microsoft/MemoryCacheManager.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/C-Core/IoC/ServiceTools.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotrhWindBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotrhWindBackend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A-WebAPI/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A-WebAPI/Controllers/ProductsController.cs" afterDir="false" />
@@ -73,16 +76,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/572e2094a2634fbeb96d692f36bdbc3e16778/5/Claim.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4e4980e1fd1747ea96dd5ea754ac19964178/e3/3dc1ad1c/IAuthorizeData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/29a328843bdc4762af89c8fdc084c4d68f5778/1C/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d9e81850faf4a539694b7d8467cc130cf88/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b997ce4b621741e6875cc78c527be20d66578/26/Select.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6e96640376514b03ba525bdd038d721231d78/A/UseMiddlewareExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d23ddb881ebc4d4290991a839764b5826280/5/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dcbd94875ad04c0080266d7232e93d2a13f78/A/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53c13ae0c80f4b2784ab381628f2ecf7133188/83/88e3ae03/SingleQueryingEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ba72efe7dbf249adbd79c391e9ea1a4b14368/5/JwtSecurityToken.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d9e81850faf4a539694b7d8467cc130cf88/7/AuthorizationAppBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4e4980e1fd1747ea96dd5ea754ac19964178/e3/3dc1ad1c/IAuthorizeData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/29a328843bdc4762af89c8fdc084c4d68f5778/1C/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23c4e6013839447196863c89842d515844200/bd/07c0d61f/AbstractInvocation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b997ce4b621741e6875cc78c527be20d66578/26/Select.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dcbd94875ad04c0080266d7232e93d2a13f78/A/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53c13ae0c80f4b2784ab381628f2ecf7133188/83/88e3ae03/SingleQueryingEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/141605190d4c44e1bb4c1f091b8979a24200/6/AutofacServiceProviderFactory.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20xl8csSUDjnIA2wCfsdkXZ4FQb" />
@@ -146,7 +150,7 @@
       <workItem from="1636993977972" duration="13442000" />
       <workItem from="1637184910877" duration="15142000" />
       <workItem from="1637268499786" duration="525000" />
-      <workItem from="1637269145905" duration="6068000" />
+      <workItem from="1637269145905" duration="8598000" />
     </task>
     <servers />
   </component>
@@ -189,55 +193,29 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/B-Domain/Concretes/ProductManager.cs</url>
-          <line>51</line>
-          <properties documentPath="D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\Concretes\ProductManager.cs" initialLine="49" containingFunctionPresentation="method 'Update'">
+          <line>30</line>
+          <properties documentPath="D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\B-Domain\Concretes\ProductManager.cs" initialLine="30" containingFunctionPresentation="method 'GetList'">
             <startOffsets>
-              <option value="1748" />
+              <option value="892" />
             </startOffsets>
             <endOffsets>
-              <option value="1770" />
+              <option value="960" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/C-Core/Aspects/Autofac/Performance/PerformanceAspect.cs</url>
-          <line>25</line>
-          <properties documentPath="D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\Aspects\Autofac\Performance\PerformanceAspect.cs" initialLine="25" containingFunctionPresentation="method 'OnAfter'">
+          <url>file://$PROJECT_DIR$/C-Core/Aspects/Autofac/Caching/CacheAspect.cs</url>
+          <line>21</line>
+          <properties documentPath="D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\Aspects\Autofac\Caching\CacheAspect.cs" initialLine="21" containingFunctionPresentation="method 'Intercept'">
             <startOffsets>
-              <option value="656" />
+              <option value="570" />
             </startOffsets>
             <endOffsets>
-              <option value="704" />
+              <option value="674" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/C-Core/Interceptors/MethodInterception.cs</url>
-          <line>18</line>
-          <properties documentPath="D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\Interceptors\MethodInterception.cs" initialLine="18" containingFunctionPresentation="method 'Intercept'">
-            <startOffsets>
-              <option value="621" />
-            </startOffsets>
-            <endOffsets>
-              <option value="642" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/C-Core/Interceptors/MethodInterception.cs</url>
-          <line>14</line>
-          <properties documentPath="D:\Partion E\Improving Software Engineering\Persian\Clean code clean architecture\NotrhWindBackend\C-Core\Interceptors\MethodInterception.cs" initialLine="14" containingFunctionPresentation="method 'Intercept'">
-            <startOffsets>
-              <option value="519" />
-            </startOffsets>
-            <endOffsets>
-              <option value="540" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

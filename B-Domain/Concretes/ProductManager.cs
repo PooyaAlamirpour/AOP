@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Core.Aspects.Autofac.Caching;
 using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Transaction;
 using Core.ViewModels.Results;
@@ -20,13 +21,16 @@ namespace Domain.Concretes
             _productDal = productDal;
         }
         
+        [CacheAspect(1)]
         public IDataResult<Product> GetById(int productId) =>
             new SuccessDataResult<Product>(_productDal.Get(x => x.ProductID == productId));
 
+        [CacheAspect(1, Priority = 1)]
         [PerformanceAspect(1)]
         public IDataResult<List<Product>> GetList() =>
             new SuccessDataResult<List<Product>>(_productDal.GetList().ToList());
 
+        [CacheAspect(1)]
         public IDataResult<List<Product>> GetListByCategory(int categoryId) =>
             new SuccessDataResult<List<Product>>(_productDal.GetList(x => x.CategoryID == categoryId).ToList());
 

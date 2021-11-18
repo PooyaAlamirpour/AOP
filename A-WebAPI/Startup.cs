@@ -4,6 +4,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Core.Authentication.JWT;
+using Core.CrossCuttingConcerns.Catching;
+using Core.CrossCuttingConcerns.Catching.Microsoft;
 using Core.Extensions;
 using Core.IoC;
 using Core.Security.Encryption;
@@ -50,8 +52,10 @@ namespace WebAPI
                         IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                     };
                 });
-            
+
+            services.AddMemoryCache();
             services.AddScoped<Stopwatch>();
+            services.AddSingleton<ICacheManager, MemoryCacheManager>();
             ServiceTools.Create(services);
         }
 
